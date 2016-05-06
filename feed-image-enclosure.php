@@ -32,7 +32,7 @@ function add_post_featured_image_as_rss_item_enclosure( $post_id=0 ) {
 	printf( 
 		'<enclosure url="%s" length="%s" type="%s" />',
 		$image['src'], 
-		"", // filesize( path_join( $upload_dir['basedir'], $thumbnail['path'] ) ), 
+		"1337", // filesize( path_join( $upload_dir['basedir'], $thumbnail['path'] ) ), 
 		get_post_mime_type( $thumb_id ) 
 	);
 }
