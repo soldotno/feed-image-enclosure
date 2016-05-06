@@ -3,7 +3,7 @@
 Plugin Name: Feed Image Enclosure
 Plugin URI: https://github.com/kasparsd/
 Description: Add featured images as enclosures in RSS feeds
-Version: 0.2
+Version: 0.2.1
 Author: Kaspars Dambis
 Author URI: http://konstruktors.com
 License: GPL2
