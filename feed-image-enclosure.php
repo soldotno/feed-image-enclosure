@@ -27,7 +27,7 @@ function add_post_featured_image_as_rss_item_enclosure() {
 	printf( 
 		'<enclosure url="%s" length="%s" type="%s" />',
 		$thumbnail['url'], 
-		filesize( path_join( $upload_dir['basedir'], $thumbnail['path'] ) ), 
+		"", // filesize( path_join( $upload_dir['basedir'], $thumbnail['path'] ) ), 
 		get_post_mime_type( $thumbnail_id ) 
 	);
 }
